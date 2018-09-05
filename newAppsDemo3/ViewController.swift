@@ -43,7 +43,7 @@ class ViewController: UIViewController {
         loginButton.layer.cornerRadius = 4
         loginButton.autoresizingMask = [.flexibleWidth, .flexibleTopMargin]
         view.addSubview(loginButton)
+    loginButton.addTarget(self, action
     }
-    
 }
 
